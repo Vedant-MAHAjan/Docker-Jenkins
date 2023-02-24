@@ -13,7 +13,7 @@ pipeline {
     // the stages of the pipeline start
     stages {
         // individual stages 
-        stage('SCM Checkout') {
+        stage('SCM Checkout code') {
             // steps to be executed inside each stage
             steps{
             git 'https://github.com/Vedant-MAHAjan/Docker-Jenkins.git'
