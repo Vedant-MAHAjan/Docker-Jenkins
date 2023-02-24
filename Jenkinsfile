@@ -20,7 +20,7 @@ pipeline {
             }
         }
 
-        stage('Build docker image') {
+        stage('Build docker image urgent') {
             steps {  
                 // since it is running on Windows, use "bat" instead of "sh"
                 bat 'docker build -t nodeapp .'
