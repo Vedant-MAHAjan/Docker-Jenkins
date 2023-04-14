@@ -101,7 +101,7 @@ Replace **YOUR-DOCKERHUB-USERNAME** and **YOUR-IMAGE-NAME** with your Docker Hub
 
 Make sure to define **DOCKERHUB_USERNAME** and **DOCKERHUB_PASSWORD** as environment variables in your Jenkins instance.
 
-### Snippet of a successful Jenkins Pipeline
+## Snippet of a successful Jenkins Pipeline
 
 ![image](https://user-images.githubusercontent.com/88843623/231981467-a44895c9-75c7-48d9-b797-9bc599103347.png)
 
